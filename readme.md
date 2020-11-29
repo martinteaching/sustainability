@@ -109,9 +109,9 @@ Workshop
 ========
 
 The workshop itself will be streamed via YouTube, with breakout rooms to
-receive support available via Teams. Links will be made available to
-attendees before the session. The structure of the day will be as
-follows:
+receive support available via Teams. Links to these platforms will be
+made available to attendees before the session. The structure of the day
+will be as follows:
 
        Time                Activity            Platform
   --------------- --------------------------- ----------
