@@ -95,11 +95,42 @@ image can be run using software such as VirtualBox
 Slack
 -----
 
-Slack will be used for communication during the workshop. Attendees are
-also welcome to ask questions, such as regarding software installation,
-prior to the session. Please sign up for the 'sustainability2020'
-workspace here, and ensure you have access on the day of the workshop:
+Slack will be used for text communication during the workshop. Attendees
+are also welcome to ask questions, such as regarding software
+installation, prior to the session. Please sign up for the
+'sustainability2020' workspace here, and ensure you have access on the
+day of the workshop:
 <https://join.slack.com/t/sustainability2020hq/signup>
 
 Any issues with accessing these resources should be reported to
 <martin.chapman@kcl.ac.uk>.
+
+Workshop
+========
+
+The workshop itself will be streamed via YouTube, with breakout rooms to
+receive support available via Teams. Links will be made available to
+attendees before the session. The structure of the day will be as
+follows:
+
+       Time                Activity            Platform
+  --------------- --------------------------- ----------
+   10.00 - 10.10         Introduction          YouTube
+   10.10 - 10.30   Coding practice: exercise    Teams
+   10.30 - 10.50     Live coding solution      YouTube
+   10.50 - 11.00             Break                \-
+   11.00 - 11.25   Version control: exercise    Teams
+   11.25 - 11.50     Live coding solution      YouTube
+   11.50 - 12.00             Break                \-
+   12.00 - 12.25       Testing: exercise        Teams
+   12.25 - 12.50     Live coding solution      YouTube
+   12.50 - 14.00             Lunch                \-
+   14.00 - 14.25      Services: exercise        Teams
+   14.25 - 14.50     Live coding solution      YouTube
+   14.50 - 15.00             Break                \-
+   15.00 - 15.25       Docker: exercise         Teams
+   15.25 - 15.50     Live coding solution      YouTube
+   15.50 - 16.00             Close             YouTube
+
+The exercise to be completed on the day, which will include assessment
+details, will also be made available to attendees prior to the session.
