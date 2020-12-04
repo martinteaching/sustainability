@@ -20,5 +20,6 @@ class SampleServer(BaseHTTPRequestHandler):
         # Sending a '200' response is code for everything is OK.
         self.send_response(200);
         # Inform the requester that the response type is text.
+	# Really we should also return JSON for consistency, but for simplicity we shall respond in text.
         self.send_header('Content-type', 'text/plain');
         self.end_headers();

@@ -1,6 +1,7 @@
 // 'require' the http library, in order to import it.
 const http = require('http');
 
+// Note: We could also structure this as a class, and return it via export.
 module.exports = {
   // Accept a yet unknown number of parameters using the ellipsis before options.
   httpPostJSON: function({body, ...options}) {
