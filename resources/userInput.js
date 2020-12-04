@@ -1,6 +1,7 @@
 const readline = require("readline");
 let readlineInterface;
 
+// Note: We could also structure this as a class, and return it via export.
 module.exports = {
   startInput: function() {
     // Open a read interface with standard input, in order to collect input from the user.
