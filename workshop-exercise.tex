@@ -51,7 +51,7 @@ by 3. This produces a number between 0 and 2. Next, the model
 takes the number of days from now at which to make a prediction,
 and also computes the remainder of this value when divided by 3.
 This also produces a number between 0 and 2. These two numbers
-are then combined to produce a number between 0 and 4.
+are then added together to produce a number between 0 and 4.
 
 To make a final prediction, each number produced by the model is matched to
 a specific type of weather:
@@ -61,10 +61,15 @@ a specific type of weather:
 \subsection{Example}
 
 \begin{enumerate}
+
     \item A user enters \mintinline[bgcolor=bg]{bash}{London} and \mintinline[bgcolor=bg]{bash}{3}.
+    
     \item The value of `L' in Unicode is 76. The remainder of 76 / 3 is 1.
+    
     \item The remainder of 3 / 3 is 0.
+    
     \item Our final prediction value is 1 (1 + 0), which corresponds to `wind'.
+
 \end{enumerate}
 
 \section{Session 1 (10.10 - 10.30) - Coding practice}
@@ -120,9 +125,13 @@ in your code.
 Write three tests to ensure the following:
 
 \begin{enumerate}
+
     \item The weather in London in 5 days time is ``snow''.
+
     \item The weather in London in 365 days time is ``snow''.
+
     \item The weather in London in -1 days time is not reported.
+
 \end{enumerate}
 
 Modify your program such that these tests pass, if needed.
