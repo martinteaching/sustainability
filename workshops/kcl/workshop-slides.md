@@ -1,10 +1,3 @@
----
-author:
-- Martin Chapman
-date: December 9th
-title: Software Sustainability Workshop
----
-
 Workshops in the time of COVID
 
 The online material, which you have already reviewed, is the
@@ -64,3 +57,22 @@ Correct me, challenge me and tell me better ways to do things - I am
 here to **learn too**.
 
 Most importantly, collaborate and help **each other**.
+
+KCLHI and software sustainability: microservices
+
+King's College London Health Informatics (KCLHI).
+
+-   [kclhi.org](https://kclhi.org).
+
+-   [github.com/kclhi](https://github.com/kclhi).
+
+Microservice architectures:
+
+-   '**Phenoflow**' -
+    [github.com/kclhi/phenoflow](https://github.com/kclhi/phenoflow).
+
+-   '**CONSULT**' -
+    [github.com/kclconsult](https://github.com/kclconsult).
+
+-   '**TMRWeb**' -
+    [github.com/kclconsult/tmrweb](https://github.com/kclconsult/tmrweb).
