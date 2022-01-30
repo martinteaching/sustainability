@@ -22,9 +22,9 @@ Workshops organised based on this course include:
 
 1. King's College London, 9th December 2020
 
-- [Prerequisites](workshops/kcl/workshop.md)
-- [Slides](workshops/kcl/workshop-slides.md)
-- [Exercises](workshops/kcl/workshop-exercise.md)
+- [Prerequisites](workshops/kcl/2020/workshop.md)
+- [Slides](workshops/kcl/2020/workshop-slides.md)
+- [Exercises](workshops/kcl/2020/workshop-exercise.md)
 
 2. King's College London, 2nd February 2022
 
