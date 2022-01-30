@@ -1,0 +1,137 @@
+\documentclass{article}
+
+%Packages
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[parfill]{parskip}
+
+\usepackage[colorlinks=true,urlcolor=codeblue]{hyperref}
+
+\usepackage[]{minted}
+
+%Document
+
+\title{Software Sustainability - King's workshop prerequisites} 
+\author{Martin Chapman} 
+\date{Wednesday 2nd February 2022}
+
+\begin{document}
+
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\definecolor{codeblue}{rgb}{0,0.3,0.6}
+
+\maketitle
+
+\section{Overview}
+
+``If a tree falls in a forest, and no one is there to hear it, does it make a sound?''. 
+This thought experiment suggests that something cannot exist if it exists in isolation. 
+The same is true of research software, which can only truly make an impact if it continues to be used over time. 
+We refer to software that is able to stand the test of time as sustainable. 
+In the development of research software, there are several steps we can take to ensure our software is sustainable, and is still used in 5, 10 or even 20 years from now. 
+This course explores these steps, which include the use of Git, service-based architectures, and Docker. 
+In producing sustainable software, not only do we ensure the longevity of our work, but we also ensure that our research is as open as possible, and, critically, our results are reproducible.
+
+Attendees at the workshop will build a novel piece of software, incrementally improving its sustainability, until they develop a product capable of existing within the workbenches of the next generation of researchers.
+
+\section{Prerequisites}
+
+\subsection{Video course}
+
+Prior to attending the workshop, attendees should have reviewed the recorded video course on software sustainability.
+
+\textbf{YouTube playlist link}: \newline
+\href{https://youtube.com/playlist?list=PLxyHJ\_wep1\_DPbvtFl\_-EGyoz2pVt-n1\_}{https://youtube.com/playlist?list=PLxyHJ\_wep1\_DPbvtFl\_-EGyoz2pVt-n1\_}
+
+As the workshop will be entirely practical, this material will not be presented, and instead the attendees will complete tasks based upon the recorded content. 
+
+The exercise to be completed on the day, which will include an assessment component, will also be made available to attendees prior to the workshop.
+
+\subsection{Installation}
+
+\subsubsection{Direct}
+
+The following pieces of software should be installed prior to attending the workshop, and preferably prior to engaging with the recorded material. 
+In order of importance:
+
+\begin{enumerate}
+
+    \item \textbf{Python 3}
+    (\href{https://www.python.org/downloads/}{https://www.python.org/downloads/})
+
+    Confirm Python 3 is installed by issuing the command
+    \mintinline[bgcolor=bg]{bash}{python3 --version} on a terminal.
+
+    \item \textbf{nodejs}
+    (\href{https://nodejs.org/en/download/}{https://nodejs.org/en/download/})
+
+    Confirm nodejs is installed by issuing the command
+    \mintinline[bgcolor=bg]{bash}{node --version} on a terminal.
+
+    \item \textbf{Git}
+    (\href{https://git-scm.com/book/en/v2/Getting-Started-Installing-Git}{https://git-scm.com/book/en/v2/Getting-Started-Installing-Git})
+
+    Confirm git is installed by issuing the command
+    \mintinline[bgcolor=bg]{bash}{git --version} on a terminal.
+
+    \item \textbf{Docker}
+    (\href{https://docs.docker.com/get-docker/}{https://docs.docker.com/get-docker/})
+
+    Confirm docker is installed by issuing the command
+    \mintinline[bgcolor=bg]{bash}{docker run hello-world} on a terminal.
+
+    \item \textbf{Docker Compose}
+    (\href{https://docs.docker.com/compose/install/}{https://docs.docker.com/compose/install/})
+
+    Confirm Docker Compose is installed by issuing the command \newline
+    \mintinline[bgcolor=bg]{bash}{docker-compose --version}
+
+\end{enumerate}
+
+It is recommended that all these tools are installed directly to the attendees machine. Unfortunately, support with installation cannot be provided during the workshop.
+
+\subsubsection{Virtual Machine}
+
+If this installation process is not possible, a virtual machine image is available (\href{https://www.dropbox.com/s/ho4vir303li1in0/sustainable.ova?dl=1}{https://www.dropbox.com/s/ho4vir303li1in0/sustainable.ova?dl=1}), within which all the required software has been pre-installed. 
+
+This image can be run using software such as VirtualBox: \newline 
+\href{https://www.virtualbox.org/wiki/Downloads}{https://www.virtualbox.org/wiki/Downloads}.
+
+\section{Workshop}
+
+The workshop itself will be structured as a number of different sessions, each of which will take place on Microsoft Teams.
+Links to each session will be made available to attendees in advance.
+Each session will relate to one of the five topics covered in the course, and feature an exercise on that topic:
+
+\begin{table}[h!]
+
+    \centering 
+    
+    \input{tables/workshop-schedule}
+    
+\end{table}
+
+\subsection{JupyterLab}
+
+Each session will be split into two parts: first, attendees will briefly review the exercise independently. 
+Following this, \emph{JupyterLab} (with a \emph{Visual Studio Live Share} session and screen sharing as a backup) will be used to collaboratively develop a solution.
+
+As such, attendees should familiarise themselves with the Jupyter development environment.
+A demo environment can be accessed here: \href{https://jupyter.org/try}{https://jupyter.org/try}.
+
+\emph{As a backup, those attendees with access to a Windows environment should download \emph{Visual Studio Code} and install the \emph{Live Share} extension.
+Attendees using other operating systems should make sure they can access, and familiarise themselves with, \emph{Visual Studio Code for the Web} before the session.
+Further details are available here: \href{https://visualstudio.microsoft.com/services/live-share/}{https://visualstudio.microsoft.com/services/live-share/}}
+
+\emph{As an additional backup, attendees should prepare to share their screens during the session.}
+
+\subsection{Slack}
+
+In the event that there are issues accessing Teams, a Slack channel has been created for this workshop so that communication can continue.
+Please sign up for the `sustainability2022' workspace here: \newline
+\href{https://join.slack.com/t/sustainability2022hq/signup}{https://join.slack.com/t/sustainability2022hq/signup}
+
+Problems with any of the resources listed above should be reported to Martin Chapman (martin.chapman@kcl.ac.uk) prior to the workshop.
+
+\end{document}

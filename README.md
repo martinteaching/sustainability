@@ -31,4 +31,5 @@ Workshops organised based on this course include:
 
 2. King's College London, 2nd February 2022
 
-- Workshop materials to follow.
+- [Prerequisites](workshops/kcl/2022/workshop.md)
+- [Slides](workshops/kcl/2022/workshop-slides.md)
