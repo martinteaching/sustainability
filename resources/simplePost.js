@@ -24,7 +24,7 @@ module.exports = {
         ...options,
       // Prepare what to do when a response is received.
       }, response => {
-        // Initially collect data received back from server in byte chunks.
+        // Data is received back from server in byte chunks; collect these.
         const chunks = [];
         response.on('data', data => chunks.push(data));
         response.on('end', () => {
