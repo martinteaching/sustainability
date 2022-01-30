@@ -3,7 +3,7 @@
 ### Overview
 
 "If a tree falls in a forest, and no one is there to hear it, does it make a sound?". 
-This thought experiment suggests that something cannot exist, if it exists in isolation. 
+This thought experiment suggests that something cannot exist if it exists in isolation. 
 The same is true of research software, which can only truly make an impact if it continues to be used over time.
 We refer to software that is able to stand the test of time as sustainable.
 In the development of research software, there are several steps we can take to ensure our software is sustainable, and is still used in 5, 10 or even 20 years from now.
@@ -13,6 +13,8 @@ In producing sustainable software, not only do we ensure the longevity of our wo
 ### Material
 
 The main course material is available on [YouTube](https://www.youtube.com/watch?v=XsjLdUJ972Q&list=PLxyHJ_wep1_DPbvtFl_-EGyoz2pVt-n1_).
+
+<img src="course.png" alt="course" width="300"/>
 
 Supplementary material for this course is available in the [resources](resources/) folder.
 
