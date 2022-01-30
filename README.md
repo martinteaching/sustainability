@@ -25,6 +25,7 @@ Workshops organised based on this course include:
 - [Prerequisites](workshops/kcl/2020/workshop.md)
 - [Slides](workshops/kcl/2020/workshop-slides.md)
 - [Exercises](workshops/kcl/2020/workshop-exercise.md)
+- [Workshop recording](https://youtu.be/h3GlvSaurvc)
 
 2. King's College London, 2nd February 2022
 
