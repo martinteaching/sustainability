@@ -94,10 +94,10 @@ This image can be run using software such as VirtualBox:
 # Workshop
 
 The workshop itself will be structured as a number of different
-sessions, each of which will take place on Microsoft Teams. Links to
-each session will be made available to attendees in advance. Each
-session will relate to one of the five topics covered in the course, and
-feature an exercise on that topic:
+sessions, each of which will take place on Microsoft Teams. Teams links
+will be made available to attendees in advance. Each session will relate
+to one of the five topics covered in the course, and feature an exercise
+on that topic:
 
      **Time**       **Activity**
   --------------- -----------------
@@ -115,10 +115,11 @@ feature an exercise on that topic:
 
 ## JupyterLab
 
-Each session will be split into two parts: first, attendees will briefly
-review the exercise independently. Following this, *JupyterLab* (with a
-*Visual Studio Live Share* session and screen sharing as a backup) will
-be used to collaboratively develop a solution.
+In addition, each session will be split into two parts: first, attendees
+will briefly review the exercise independently. Following this,
+*JupyterLab* (with both a *Visual Studio Live Share* session and screen
+sharing acting as backups) will be used to collaboratively develop a
+solution.
 
 As such, attendees should familiarise themselves with the Jupyter
 development environment. A demo environment can be accessed here:
@@ -131,7 +132,7 @@ can access, and familiarise themselves with, *Visual Studio Code for the
 Web* before the session. Further details are available here:
 <https://visualstudio.microsoft.com/services/live-share/>*
 
-*As an additional backup, attendees should prepare to share their
+*As an additional backup, attendees should be prepared to share their
 screens during the session.*
 
 ## Slack
