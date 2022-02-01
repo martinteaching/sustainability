@@ -50,7 +50,7 @@ course topics:
 There is an **exercise** available for each session, based on the
 current topic.
 
-The first part of each session will **individually** give you time to
+The first part of each session will give you time **individually** to
 review and make a start on the exercise.
 
 The second will be a **collaborative** coding session, during which we
@@ -67,7 +67,7 @@ Assessment
 
 A requirement for the workshop.
 
-Please **engage sufficiently with the interactive coding sessions** in
+Please **engage sufficiently with the collaborative coding sessions** in
 order to receive a 'pass' mark.
 :::
 
