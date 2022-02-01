@@ -34,3 +34,4 @@ Workshops organised based on this course include:
 
 - [Prerequisites](workshops/kcl/2022/workshop.md)
 - [Slides](workshops/kcl/2022/workshop-slides.md)
+- [Exercises](workshops/kcl/2022/workshop-exercises.md)
