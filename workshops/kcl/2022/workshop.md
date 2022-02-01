@@ -72,6 +72,13 @@ material. In order of importance:
     Confirm docker is installed by issuing the command
     `docker run hello-world`{.bash} on a terminal.
 
+    *Note: if you receive a permissions error when running this command
+    on a Linux machine, you may be required to run the command as the
+    root user by prefixing it with the `sudo`{.bash} keyword. To
+    permanently allow a non-root user access to Docker you can add a
+    user (e.g. 'user') to the docker Unix group with the command
+    `sudo usermod -aG docker user`{.bash}.*
+
 5.  **Docker Compose** (<https://docs.docker.com/compose/install/>)
 
     Confirm Docker Compose is installed by issuing the command
