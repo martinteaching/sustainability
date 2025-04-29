@@ -1,0 +1,184 @@
+\documentclass[10pt, dvipsnames, table, aspectratio=169]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+
+\usepgfplotslibrary{dateplot}
+
+%Project imports:
+
+\usepackage[color=yellow]{todonotes}
+
+\usepackage{hyperref}
+
+\urlstyle{same}  % don't use monospace font for urls
+
+\usepackage[]{minted}
+
+%Project code:
+
+\hypersetup{unicode=true,pdftitle={},pdfauthor={},pdfkeywords={},pdfborder={0 0 0},breaklinks=true}
+
+\makeatletter
+
+%Document:
+
+\title{Software Sustainability Workshop}
+
+\subtitle{}
+
+\date{May 2nd}
+
+\author{Martin Chapman}
+
+\institute{King's College London}
+
+\begin{document}
+
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+
+%\maketitle
+
+%==============================
+
+\begin{frame}[fragile]{Teaching format}
+
+The online material, which you have already reviewed, is the `\textbf{lecture}'.
+
+\begin{itemize}
+
+    \item Available on \textbf{YouTube} (recorded offline and via live stream).
+
+    \item Catch up as quickly as you can if you have not yet reviewed this material.
+
+\end{itemize}
+
+Today is the `\textbf{tutorial}'.
+
+\begin{itemize}
+
+    \item A \textbf{workshop} in which we further explore the ideas from the course.
+
+\end{itemize}
+
+Links to all material available at:
+\href{https://github.com/martinteaching/sustainability}{\textbf{github.com/martinteaching/sustainability}}.
+
+\end{frame}
+
+%==============================
+
+\begin{frame}[fragile, allowframebreaks]{Workshop structure}
+
+A series of five 50-minute sessions.
+Each session will relate to one of the five topics covered in the course:
+
+\begin{centering}
+
+\begin{table}[h!]
+
+    \centering
+
+    \input{tables/workshop-schedule}
+
+\end{table}
+
+\end{centering}
+
+\framebreak
+
+There is an \textbf{exercise} available for each session, based on the current topic.
+
+The first part of each session will give you time \textbf{individually} to review and make a start on the exercise.
+
+The second will be a \textbf{collaborative} coding session, during which we will construct an answer to the exercise together.
+
+\begin{itemize}
+
+  \item I will share a \emph{Visual Studio Code} link.
+
+  \item We will take it in turns to be \textbf{in charge of the editor}, with those not currently coding \textbf{helping with the solution}.
+
+\end{itemize}
+
+\end{frame}
+
+%==============================
+
+\begin{frame}[fragile]{Assessment}
+
+A requirement for the workshop.
+
+Please \textbf{engage sufficiently with the collaborative coding sessions} in order to receive a `pass' mark.
+
+\end{frame}
+
+%==============================
+
+\begin{frame}[fragile]{Technology Drift}
+
+The material for this course was recorded a \textbf{little while ago}, which might seem strange for any technology-related workshop, given that technologies change all the time.
+
+Because the topics we focus on are so \textbf{fundamental}, the course doesn't suffer too much from this \emph{technology drift}.
+However, there are some \textbf{notable changes} from when the material was recorded:
+
+\begin{itemize}
+    \item \mintinline[bgcolor=bg]{bash}{docker-compose} to \mintinline[bgcolor=bg]{bash}{docker compose}
+    \item I used to \emph{love} semicolons...
+\end{itemize}
+
+I am \textbf{continually reviewing} whether the material needs to be re-recorded.
+
+\end{frame}
+
+%==============================
+
+\begin{frame}[fragile]{A quick word on how I like to run sessions...}
+
+I am more of a \textbf{generalist} (`jack of all trades') than a \textbf{specialist}.
+
+Therefore, likely people here who know \textbf{way more} about aspects of this technology than I do.
+
+Correct me, challenge me and tell me better ways to do things -- I am very open to \textbf{learning more}.
+
+Most importantly, collaborate and help \textbf{each other}.
+
+\end{frame}
+
+%==============================
+
+\begin{frame}[fragile]{KCLHI and software sustainability: microservices}
+
+A \textbf{microservice architecture} is really what we are building towards in this course, as they epitomise sustainable software.
+
+An approach we use in our group, King's College London Health Informatics (KCLHI).
+
+\begin{itemize}
+
+    \item \href{https://kclhi.org}{kclhi.org}.
+    
+    \item \href{https://github.com/kclhi}{github.com/kclhi}.
+    
+\end{itemize}
+
+Examples:
+
+\begin{itemize}
+    
+    \item `\textbf{Phenoflow}' - \href{https://github.com/kclhi/phenoflow}{github.com/kclhi/phenoflow}. 
+    \item `\textbf{REFLECT}' - \href{https://github.com/kclreflect}{github.com/kclreflect}.   
+    \item `\textbf{CONSULT}' - \href{https://github.com/kclconsult}{github.com/kclconsult}.
+    \item `\textbf{TMRWeb}' - \href{https://github.com/kclconsult/tmrweb}{github.com/kclconsult/tmrweb}.
+
+\end{itemize}
+
+\end{frame}
+
+\end{document}

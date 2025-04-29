@@ -35,3 +35,8 @@ Workshops organised based on this course include:
 - [Prerequisites](workshops/kcl/2022/workshop.md)
 - [Slides](workshops/kcl/2022/workshop-slides.md)
 - [Exercises](workshops/kcl/2022/workshop-exercises.md)
+
+2. King's College London, 2nd May 2025
+
+- [Prerequisites](workshops/kcl/2025/README.md)
+- [Slides](workshops/kcl/2025/workshop-slides.md)
