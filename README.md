@@ -28,6 +28,7 @@ Workshops organised based on this course include:
 - [Prerequisites](workshops/kcl/2020/workshop.md)
 - [Slides](workshops/kcl/2020/workshop-slides.md)
 - [Exercises](workshops/kcl/2020/workshop-exercise.md)
+- [Solution](https://github.com/martinteaching/weather)
 - [Workshop recording](https://youtu.be/h3GlvSaurvc)
 
 2. King's College London, 2nd February 2022
@@ -35,8 +36,10 @@ Workshops organised based on this course include:
 - [Prerequisites](workshops/kcl/2022/workshop.md)
 - [Slides](workshops/kcl/2022/workshop-slides.md)
 - [Exercises](workshops/kcl/2022/workshop-exercises.md)
+- [Solution](https://github.com/martinteaching/robot)
 
 2. King's College London, 2nd May 2025
 
 - [Prerequisites](workshops/kcl/2025/README.md)
 - [Slides](workshops/kcl/2025/workshop-slides.md)
+- [Exercises](workshops/kcl/2025/workshop-exercises.md)
