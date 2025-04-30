@@ -38,11 +38,9 @@ A piece of Python code simulating the drunkard’s walk is available
 [here](https://github.com/martinteaching/sustainability/blob/master/workshops/kcl/2025/resources/drunkard.py).
 It accepts the dimensions of the 2D space as input, simulates the
 movement of the drunkard towards home, and reports on the path the
-drunkard took to reach it. Once the drunkard reaches home, this code
-reports the path they have taken and the drunkard’s current position
-(home). Thus, this code is a piece of research software allowing us to
-explore the relationship between the size of 2D spaces and the length of
-a drunkard’s walk.
+drunkard took to reach it. Thus, this code is a piece of research
+software allowing us to explore the relationship between the size of 2D
+spaces and the length of a drunkard’s walk.
 
 # Session 1 (10.10 - 10.50) - Coding practice
 
