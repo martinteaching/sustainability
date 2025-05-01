@@ -25,9 +25,9 @@ the workshop.
 
 ## Installation
 
-### GitHub codespaces (recommended)
+### GitHub Codespaces (recommended)
 
-Students should familiarise themselves with how to use [GitHub
+Attendees should familiarise themselves with how to use [GitHub
 Codespaces](https://github.com/codespaces) prior to attending the
 workshop, and preferably prior to engaging with the recorded material.
 
@@ -65,9 +65,9 @@ during the workshop.
 
 ### Direct (backup)
 
-In case of any issues with GitHub Codespaces, students are encouraged to
-install the software listed above directly to their machines using the
-links provided.
+In case of any issues with GitHub Codespaces, attendees are encouraged
+to install the software listed above directly to their machines using
+the links provided.
 
 *Note: if you receive a permissions error when running the Docker
 command on a Linux machine, you may be required to run the command as
@@ -78,13 +78,13 @@ to the docker Unix group with the command
 
 # Workshop
 
-Students may wish to review the [workshop
+Attendees may wish to review the [workshop
 slides](https://github.com/martinteaching/sustainability/blob/master/workshops/kcl/2025/workshop-slides.md)
 in advance to understand the structure of the workshop itself.
 
 ## Visual Studio Code
 
-Visual Studio Code, which will be used for collaborative coding during
+Visual Studio Code, which may be used for collaborative coding during
 the workshop, can be used through the browser, however students may also
 like to install this software locally.
 
