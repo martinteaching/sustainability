@@ -18,7 +18,7 @@ Today is the ‘**tutorial**’.
   in which we further explore the ideas from the course.
 
 Links to all material available at:
-[**github.com/martinteaching/sustainability**](https://github.com/martinteaching/sustainability).
+[**bit.ly/sustain25**](https://bit.ly/sustain25).
 
 </div>
 
@@ -75,6 +75,12 @@ of the five topics covered in the course:
 
 </div>
 
+</div>
+
+<div class="frame">
+
+Exercises
+
 There is an
 [**exercise**](https://github.com/martinteaching/sustainability/blob/master/workshops/kcl/2025/workshop-exercises.md)
 available for each session, based on the current topic.
@@ -83,14 +89,16 @@ The first part of each session will give you time **individually** to
 review and make a start on the exercise using [GitHub
 Codespaces](https://github.com/martinteaching/sustainability/tree/master/workshops/kcl/2025#github-codespaces-recommended).
 
-- Also time to **catch up on the online material** for the current
-  topic.
+- Also time to **catch up on the online material** for the current topic
+  if needed.
+
+- Focus on the **‘in practice’** videos.
 
 The second will be a **collaborative** coding session, during which we
 will construct an answer to the exercise together.
 
-- I will share a *Visual Studio Code* link (with ‘*at-keyboard*’ coding
-  as a backup).
+- I will share a *Visual Studio Code* **Live Share** link (with
+  ‘*at-keyboard*’ coding as a backup).
 
 - We will take it in turns to be **in charge of the editor**, with those
   not currently coding **helping with the solution**.

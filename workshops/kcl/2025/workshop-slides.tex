@@ -26,13 +26,15 @@
 
 \hypersetup{unicode=true,pdftitle={},pdfauthor={},pdfkeywords={},pdfborder={0 0 0},breaklinks=true}
 
-\makeatletter
+\setbeamertemplate{frame footer}{
+    \hfill\href{https://bit.ly/sustain25}{bit.ly/sustain25}
+}
 
 %Document:
 
-\title{Software Sustainability Workshop}
+\title{Software Sustainability}
 
-\subtitle{}
+\subtitle{Workshop}
 
 \date{May 2nd}
 
@@ -44,10 +46,12 @@
 
 \definecolor{bg}{rgb}{0.95,0.95,0.95}
 
-%\maketitle
+\maketitle
 
 %==============================
 
+{
+\setbeamertemplate{footline}{}
 \begin{frame}[fragile]{Format}
 
     The \href{https://github.com/martinteaching/sustainability#material}{\textbf{online material}}, which you have hopefully already reviewed, is the `\textbf{lecture}'.
@@ -69,12 +73,15 @@
     \end{itemize}
     
     Links to all material available at:
-    \href{https://github.com/martinteaching/sustainability}{\textbf{github.com/martinteaching/sustainability}}.
+    \href{https://bit.ly/sustain25}{\textbf{bit.ly/sustain25}}.
     
 \end{frame}
+}
 
 %==============================
 
+{
+\setbeamertemplate{footline}{}
 \begin{frame}[fragile]{Summary: Software sustainability}
 
 \textbf{Definition}: The ability of software to \textbf{endure}.
@@ -90,10 +97,11 @@
 \textbf{Note}: Sustainable (i.e. environmentally friendly) software is important too!
 
 \end{frame}
+}
 
 %==============================
 
-\begin{frame}[fragile, allowframebreaks]{Workshop structure}
+\begin{frame}[fragile]{Workshop structure}
 
 A series of \textbf{five 50-minute sessions}.
 Each session will relate to one of the five topics covered in the course:
@@ -110,23 +118,33 @@ Each session will relate to one of the five topics covered in the course:
 
 \end{centering}
 
-\framebreak
+\end{frame}
+
+%==============================
+
+\begin{frame}[fragile]{Exercises}
 
 There is an \href{https://github.com/martinteaching/sustainability/blob/master/workshops/kcl/2025/workshop-exercises.md}{\textbf{exercise}} available for each session, based on the current topic.
+
+\pause
 
 The first part of each session will give you time \textbf{individually} to review and make a start on the exercise using \href{https://github.com/martinteaching/sustainability/tree/master/workshops/kcl/2025#github-codespaces-recommended}{GitHub Codespaces}.
 
 \begin{itemize}
 
-    \item Also time to \textbf{catch up on the online material} for the current topic.
+    \item Also time to \textbf{catch up on the online material} for the current topic if needed.
+    
+    \item Focus on the \textbf{`in practice'} videos.
 
 \end{itemize}
+
+\pause 
 
 The second will be a \textbf{collaborative} coding session, during which we will construct an answer to the exercise together.
 
 \begin{itemize}
 
-  \item I will share a \emph{Visual Studio Code} link (with `\textit{at-keyboard}' coding as a backup).
+  \item I will share a \emph{Visual Studio Code} \textbf{Live Share} link (with `\textit{at-keyboard}' coding as a backup).
 
   \item We will take it in turns to be \textbf{in charge of the editor}, with those not currently coding \textbf{helping with the solution}.
 
