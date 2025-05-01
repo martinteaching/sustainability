@@ -19,9 +19,10 @@ As the workshop will be entirely practical, this material will not be
 presented, and instead the attendees will develop their software by
 completing a set of exercises based upon the recorded content.
 
-The exercise to be completed on the day, which will include an
+~~The exercise to be completed on the day, which will include an
 assessment component, will also be made available to attendees prior to
-the workshop.
+the workshop.~~ Exercises are available
+[here](https://github.com/martinteaching/sustainability/blob/master/workshops/kcl/2025/workshop-exercises.md).
 
 ## Installation
 
