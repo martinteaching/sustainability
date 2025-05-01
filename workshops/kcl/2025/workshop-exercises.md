@@ -44,8 +44,12 @@ spaces and the length of a drunkard’s walk.
 
 # Session 1 (10.10 - 10.50) - Coding practice
 
-Refactor the current Python code simulating the drunkard’s walk so that
-it adheres to the principles of coding practice discussed in the course.
+Using [GitHub
+Codespaces](https://github.com/martinteaching/sustainability/tree/master/workshops/kcl/2025#github-codespaces-recommended)
+(or your local machine), refactor the [current Python
+code](https://github.com/martinteaching/sustainability/blob/master/workshops/kcl/2025/resources/drunkard.py)
+simulating the drunkard’s walk so that it adheres to the principles of
+coding practice discussed in the course.
 
 *You are welcome to reimplement the code using alternative logic first,
 should you wish to.*
@@ -95,9 +99,9 @@ drunkard for the user.
 
 # Session 5 (15.00 - 15.50) - Docker
 
-Dockerise your program – using a Dockerfile and Docker Compose –
-allowing the Python server to run in a container, and the Javascript
-client to issue requests to it.
+Dockerise your program—using a Dockerfile and Docker Compose—allowing
+the Python server to run in a container, and the Javascript client to
+issue requests to it.
 
 # Additional Tasks
 
